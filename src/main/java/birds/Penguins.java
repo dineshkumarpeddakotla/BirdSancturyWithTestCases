@@ -3,7 +3,6 @@ package birds;
 public class Penguins extends Bird implements IEatable,ISwimable{
     static int count;
 
-
     public void eat() {
         System.out.println("Penguins is Eating");
     }

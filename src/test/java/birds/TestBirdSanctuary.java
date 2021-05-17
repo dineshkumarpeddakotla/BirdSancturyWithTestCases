@@ -6,6 +6,7 @@ import org.junit.rules.ExpectedException;
 
 public class TestBirdSanctuary {
 
+    //created test cases to test whether new birds are added
     @Test
     public void whenBirdIsAddToBirdSanctuary() {
         BirdSanctuary birdSanctuary = BirdSanctuary.getInstance();
@@ -16,6 +17,7 @@ public class TestBirdSanctuary {
         Assertions.assertEquals(1, count);
     }
 
+    //created test cases to test whether null is added to birdList
     @SuppressWarnings("deprecation")
     @Test
     public void whenNullIsAddedToBirdSanctuary() {
